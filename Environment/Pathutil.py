@@ -48,5 +48,7 @@ if __name__ == '__main__':
     for x in component_list:
         x.print()
 
+    print(Style.RESET_ALL)
+
 
 
