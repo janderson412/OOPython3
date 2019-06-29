@@ -4,6 +4,7 @@ from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource, CDSView, GroupFilter
 from bokeh.layouts import column, row
 
+
 from read_nba_data import *
 
 output_file('east_west_top_2_standings_race.html',
